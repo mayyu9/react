@@ -1,0 +1,9 @@
+# frozen_string_literal: true
+
+class ShoppingCartController < ApplicationController
+layout "shopping_cart"
+
+  def index
+    @hello_world_props = { name: "Stranger" }
+  end
+end
